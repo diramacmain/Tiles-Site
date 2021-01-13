@@ -1,0 +1,161 @@
+.body,h2,h1{
+    color: #212529;
+    font-family: tahoma;
+}
+footer{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+h2{
+    padding: 5px;
+}
+.mainContainer .row{
+height: 500px;
+}
+.rowTop{
+    background-image:url("../../images/topRowBack.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto 100%;
+    min-height: 800px !important;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+}
+.topInnerDiv{
+    position: absolute;
+    bottom: 0px;
+    vertical-align: middle;
+    padding-bottom: 200px;
+}
+.rowTop h1{
+    font-size: 7em;
+    margin-bottom: 100px;
+}
+.rowTop p{
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+.rowTop a{
+    padding: 15px;
+    color: white;
+    border: solid #fff 1px;
+    border-radius: 50px;  
+    transition:padding 0.5s;
+    margin-bottom: 200px;
+}
+.rowTop a i{
+    position: relative;
+    bottom: -5px;
+}
+.rowTop a:hover{
+    background-color: white;
+    border: solid #fff 0px;  
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    color: #212529;
+}
+.mainContainer .col-lg-8{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.mainContainer .col-lg-4{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110% auto;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.mainContainer .col-lg-4:hover{
+    background-size: 150% auto;
+}
+.colTileInner{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.col1A{
+    
+}
+.col1B {
+    background-image:url("../../images/watchCenteredInhand.png");
+}
+.col1C {
+    background-image:url("../../images/chair.png");
+}
+.col2A{
+    background-color: #D8CFC6;
+}
+.col2B{
+    background-image:url("../../images/heels.png");
+}
+.col2C{
+    
+}
+.col3A{
+    background-image:url("../../images/coffee.png");
+}
+.col3B{
+    background-color: #9598A1; 
+}
+.col4A{
+    
+}
+.col4B{
+    background-image:url("../../images/tallModel2.png");
+}
+.col4C{
+    background-image:url("../../images/tallModel1.png");
+    background-size: 60% auto !important;
+}
+.col5A{
+    background-image:url("../../images/leg.png");
+}
+.col5B{
+    background-color: #FFCEBC;
+}
+.col6A{}
+.col6B .colTileInner{
+    top:0px;
+    background-image: url("https://www.youtube.com/embed/BOQ-wZQhZZo");
+}
+.col7A{
+    background-image:url("../../images/decorC.png");
+}
+.col7B{}
+.col8A{
+    background-color: #D1D0CB;
+}
+.col8A h2,.col5B h2,.col3B h2,.col2A h2{
+    color: #fff;
+    padding: 10px;
+
+}
+.col8B{
+    background-image:url("../../images/whiteWall.png");
+}
+.col9A{
+    background-image:url("../../images/bridgeBlue.png");
+}
+.col9B{}
+
+.h2-right{
+    text-align: right;
+
+}
+.h2-left{
+    text-align: left;   
+}
+.line-left{
+    /* border:solid #fff;
+    border-width: 0px 0px 0px 40px;
+    height: 3px; */
+}
+.line-left h2{
+    position: absolute;
+    margin-top: -48px;
+}

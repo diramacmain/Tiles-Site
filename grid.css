@@ -310,10 +310,10 @@ h1{
     .t20{grid-area: t20;}
     .t21{grid-area: t21;}
   }
-  .fa {
+  .fas,.fa {
     font-size: 100px;
   }
-  .t5 .flip-box-back{
+  .t5 .flip-box-back,.t11 .flip-box-back,.t3 .flip-box-back{
     text-align: center;
     padding: 50px;
   }

@@ -191,12 +191,16 @@ h1{
     padding: 1em;
   }
   /**********Flip box end**********/
-  .t4,.t5{
+  .t4,.t5,.t5 h3,.t5 p,.t5 i{
     background-color: #D8CFC6;
     color:#fff;
   }
-  .t11,.t12{
+  .t11,.t12,.t11 h3,.t11 p,.t11 i{
       background-color: #E4C4BB;
+      color: white;
+  }
+  .t12 hr{
+    background-color: white;
   }
   #cursor{
     font-size: 30px;

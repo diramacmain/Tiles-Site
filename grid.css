@@ -39,32 +39,22 @@ h1{
     font-size: 8em;
 }
 .t0 a{
-  padding: 10px;
-  color: white;
-  border: solid #fff 1px;
-  border-radius: 50px;  
-  transition:padding 0.3s;
-  margin:0px 400px 0px 400px;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
 }
-.t0 a i{
-  position: relative;
-  bottom: -5px;
+.t0 a:hover{
+  margin-bottom: -40px;
+  font-size: 80px;
 }
 .t0{
   text-align: center;
-}
-.t0 a:hover{
-  background-color: white;
-  border: solid #fff 0px;  
-  padding-top: 20px;
-  padding-bottom: 20px; 
-  color: #212529;
 }
 .t0-inner>p{
     padding: 100px;
     padding-bottom: 200px;
     font-size: 20px;
-    
 }
 .t-all-inner{
     width: 100%;
@@ -320,8 +310,12 @@ h1{
     .t20{grid-area: t20;}
     .t21{grid-area: t21;}
   }
-  .t10 img{
-    background-size: 60% auto !important;
+  .fa {
+    font-size: 100px;
+  }
+  .t5 .flip-box-back{
+    text-align: center;
+    padding: 50px;
   }
   /****Registration Form****/
   form {
@@ -401,3 +395,4 @@ h1{
     background: #E4C4BB;
     color: #ffffff;
   }
+  
